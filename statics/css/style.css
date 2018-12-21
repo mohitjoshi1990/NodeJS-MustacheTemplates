@@ -1,0 +1,34 @@
+.label { /* for form labels */
+  font-weight: bold;
+  padding: 1ex;
+  width: 10em;
+  display: inline-block;
+  text-align: right;
+}
+
+
+.error { /* for error messages */
+  color: red;
+}
+
+.search-term { /* for displaying search terms within results */
+  color: green;
+}
+
+footer li { /* for displaying footer elements */
+  list-style: none;
+  display: inline;
+}
+footer li + li::before {
+  content: " | ";
+}
+
+
+.content{
+font-size: 12px;
+}
+
+
+.doc-name{
+font-weight: bold;
+}
